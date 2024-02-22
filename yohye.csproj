@@ -1,0 +1,108 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Index - 복사.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Index - 복사.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UmbracoCms.Core" Version="8.18.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\sqlcese40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\sqlceqp40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\sqlceme40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\sqlceer40EN.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\sqlcecompact40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\sqlceca40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\Microsoft.VC90.CRT\msvcr90.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x86\native\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\sqlcese40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\sqlceqp40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\sqlceme40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\sqlceer40EN.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\sqlcecompact40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\sqlceca40.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\Microsoft.VC90.CRT\msvcr90.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Hoon\.nuget\packages\umbraco.sqlserverce\4.0.0.1\build\..\runtimes\win-x64\native\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Resources\font\abster-demo.html" />
+    <None Include="wwwroot\Resources\font\abster-webfont.woff" />
+    <None Include="wwwroot\Resources\font\abster-webfont.woff2" />
+    <None Include="wwwroot\Resources\font\generator_config.txt" />
+    <None Include="wwwroot\Resources\font\specimen_files\grid_12-825-55-15.css" />
+    <None Include="wwwroot\Resources\font\specimen_files\specimen_stylesheet.css" />
+    <None Include="wwwroot\Resources\font\stylesheet.css" />
+    <None Include="wwwroot\Resources\images\room.jpg" />
+  </ItemGroup>
+
+</Project>
